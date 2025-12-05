@@ -37,7 +37,7 @@ while (removalsMadeInPass)
 {
     removalsMadeInPass = false;
     
-    List<(int x, int y)> removablePositions = new List<(int x, int y)>();
+    List<(int x, int y)> removablePositions = [];
 
     for (int i = 0; i < grid.Length; i++)
     {
